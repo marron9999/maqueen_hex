@@ -4,8 +4,14 @@
 
 ## microbit-ble_microbit.hex
 
-- micro:bit V1.5/V2向けのプログラムで、micro:bitのセンサーを操作するプログラムです。
+- micro:bit V1.5向けのプログラムで、micro:bitのセンサーを操作するプログラムです。
 - プログラムを修正するときは、https://makecode.microbit.org/v2 を使ってください。
+
+
+## microbit-ble_microbit_v2.hex
+
+- micro:bit V2向けのプログラムで、micro:bitのセンサーを操作するプログラムです。
+- プログラムを修正するときは、https://makecode.microbit.org またが makecodeアプリを使ってください。
 
 ## microbit-ble_maqeen.hex
 
