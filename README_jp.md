@@ -11,7 +11,7 @@
 ## microbit-ble_microbit_v2.hex
 
 - micro:bit V2向けのプログラムで、micro:bitのセンサーを操作するプログラムです。
-- プログラムを修正するときは、https://makecode.microbit.org またが makecodeアプリを使ってください。
+- プログラムを修正するときは、https://makecode.microbit.org または makecodeアプリを使ってください。
 
 ## microbit-ble_maqeen.hex
 
@@ -21,7 +21,7 @@
 ## microbit-ble_maqeen_v2.hex
 
 - micro:bit V2向けのプログラムで、micro:bitのセンサーやmaqueenを操作するプログラムです。
-- プログラムを修正するときは、https://makecode.microbit.org またが makecodeアプリを使ってください。
+- プログラムを修正するときは、https://makecode.microbit.org または makecodeアプリを使ってください。
 
 ## 通信インターフェース
 
