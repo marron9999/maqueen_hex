@@ -34,7 +34,7 @@
 	maqueen拡張機能(maqueen操作): https://github.com/marron9999/lib-maqueen
 	- 「最初だけ」に、それぞれの「Start」ブロックを配置してください。<br>
 	引数の数字は１サイクルあたりの停止時間(ミリ秒)であり、大きい値ほど反応は鈍くなります。
-	- maqueen拡張機能を使うとき、DFROBOT社のpxt-maquee拡張機能nが必要になります。<br>
+	- maqueen拡張機能を使うときは、DFROBOT社から公開されているpxt-maqueeが必要です。<br>
 	もし、エラー（プログラムサイズ制限）となってしまう場合は、アップロードされている custom.ts をかわりに組み込んでください。
 
 
