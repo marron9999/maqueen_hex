@@ -5,9 +5,9 @@
         "core": "*",
         "microphone": "*",
         "bluetooth": "*",
-        "lib-mbitlink": "github:marron9999/lib-mbitlink#0.0.4",
-        "lib-maqueen": "github:marron9999/lib-maqueen#0.0.1",
-        "lib-mbituart": "github:marron9999/lib-mbituart#0.0.3"
+        "lib-mbitlink": "github:marron9999/lib-mbitlink#0.0.5",
+        "lib-maqueen": "github:marron9999/lib-maqueen#0.0.3",
+        "lib-mbituart": "github:marron9999/lib-mbituart#0.0.5"
     },
     "files": [
         "main.blocks",
@@ -22,7 +22,7 @@
         "target": "3.0.67",
         "pxt": "6.0.39"
     },
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
             "microbit-dal": {
