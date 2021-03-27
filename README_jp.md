@@ -26,7 +26,7 @@
 	- micro:bit V2向けのプログラムで、micro:bitのセンサーやmaqueenを操作するプログラムです。
 	- プログラムを修正するときは、https://makecode.microbit.org または makecodeアプリを使ってください。
 
-	![](images/mbitlink.png)
+	![](images/makecode.png)
 
 	- makecodeの拡張機能の組み込みで、mbitlink拡張機能と、利用形態にあわせてmbituart拡張機能、maqueen拡張機能を組み込んでください。
 	- 「最初だけ」に、それぞれの「Start」ブロックを配置してください。
