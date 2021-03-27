@@ -26,9 +26,18 @@
 	- micro:bit V2向けのプログラムで、micro:bitのセンサーやmaqueenを操作するプログラムです。
 	- プログラムを修正するときは、https://makecode.microbit.org または makecodeアプリを使ってください。
 
+	![](images/mbitlink.png)
+
+	- makecodeの拡張機能の組み込みで、mbitlink拡張機能と、利用形態にあわせてmbituart拡張機能、maqueen拡張機能を組み込んでください。
+	- 「最初だけ」に、それぞれの「Start」ブロックを配置してください。
+	引数の数字は１サイクルあたりの停止時間(ミリ秒)であり、大きい値ほど反応は鈍くなります。
+	- maqueen拡張機能を使うとき、DFROBOT社のpxt-maquee拡張機能nが必要になります。
+	もし、エラー（プログラムサイズ制限）となってしまう場合は、アップロードされている custom.ts をかわりに組み込んでください。
+
+
 ## 通信インターフェース
 
-micro:bit と scratch-mbituart.exe 間は、Bluetooth LE の UARTサービス を使って会話しています。
+micro:bit と scratch-mbituart.exe/ブラウザ は、Bluetooth LE の UARTサービス を使って会話します。
 
 ## v1/custom.ts、v2/custom.ts について
 

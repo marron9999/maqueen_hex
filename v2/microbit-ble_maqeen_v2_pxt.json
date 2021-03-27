@@ -3,10 +3,14 @@
     "description": "",
     "dependencies": {
         "core": "*",
+        "microphone": "*",
         "bluetooth": "*",
-        "microphone": "*"
+        "lib-mbitlink": "github:marron9999/lib-mbitlink#0.0.4",
+        "lib-maqueen": "github:marron9999/lib-maqueen#0.0.1",
+        "lib-mbituart": "github:marron9999/lib-mbituart#0.0.3"
     },
     "files": [
+        "main.blocks",
         "main.ts",
         "README.md",
         "custom.ts"
@@ -23,15 +27,10 @@
         "config": {
             "microbit-dal": {
                 "bluetooth": {
-                    "gatt_table_size": "0x700",
                     "open": 1,
                     "whitelist": 0,
-                    "security_level": null,
-                    "dfu_service": 0,
-                    "event_service": 0,
-                    "device_info_service": 0
-                },
-                "stack_size": 3072
+                    "security_level": null
+                }
             }
         }
     }
