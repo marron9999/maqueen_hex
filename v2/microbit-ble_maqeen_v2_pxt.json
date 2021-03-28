@@ -6,7 +6,7 @@
         "microphone": "*",
         "bluetooth": "*",
         "lib-mbitlink": "github:marron9999/lib-mbitlink#0.0.10",
-        "lib-maqueen": "github:marron9999/lib-maqueen#0.0.6",
+        "lib-maqueen": "github:marron9999/lib-maqueen#0.0.7",
         "lib-mbituart": "github:marron9999/lib-mbituart#0.0.11"
     },
     "files": [
