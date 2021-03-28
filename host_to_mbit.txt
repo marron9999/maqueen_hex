@@ -1,20 +1,23 @@
-[ REQUEST: UART RX ] PC -> Micro:bit (\n区切り)
+[ REQUEST: UART RX ] PC -> micro:bit (\n区切り)
 
-R	S	0/1       	Maqueen	ラインセンサー 
-R	U	0/丸め値	Maqueen 距離センサー
-R	A	マスク  	Maqueen	[自動モード] 1-黒ライン復帰、
+R	S	0/1       	maqueen	ラインセンサー 
+R	U	0/丸め値	maqueen 距離センサー
+R	A	マスク  	maqueen	[自動モード] 1-黒ライン復帰、
 					2-旋回時:点灯、4-旋回時:音鳴らす
-R	M	マスク  	Micro:bit 1-ボタン、2-温度、4-明るさ、
-					8-ピン、16-ジェスチャー
-R	F	0/丸め値	Micro:bit 磁力計
-R	G	0/丸め値	Micro:bit 加速計
-R	R	0/丸め値	Micro:bit 回転計
-R	C	         	Micro:bit 磁力計の調整
+R	M	マスク  	micro:bit 1-ボタン、2-温度、4-明るさ、
+					8-(---)、16-ジェスチャー
+R	0	0/1/2   	micro:bit ピン0 0-None、1-Digital、2-Analog
+R	1	0/1/2   	micro:bit ピン1 0-None、1-Digital、2-Analog
+R	2	0/1/2   	micro:bit ピン2 0-None、1-Digital、2-Analog
+R	F	0/丸め値	micro:bit 磁力計
+R	G	0/丸め値	micro:bit 加速計
+R	R	0/丸め値	micro:bit 回転計
+R	C	         	micro:bit 磁力計の調整
 R	I	         	初期化/停止
 R	B	名前      	BLE Connected
 R	V	          	バージョン確認
 
---- Maqueen ---
+--- maqueen ---
 
 M	L	-255～255	左モーターを動かす速度
 M	R	-255～255	右モーターを動かす速度
@@ -26,7 +29,11 @@ L	B	0/1        	両方のLEDを消す/点ける
 
 U	-	整数     	Maqueen 最大測定距離(cm, 省略時:500)
 
---- Micro:bit ---
+--- micro:bit ---
+
+P	0	値		ピン0への出力
+P	1	値		ピン1への出力
+P	2	値		ピン2への出力
 
 G	-	1/2/4/8		加速レンジ設定
 
@@ -36,9 +43,9 @@ T	4	音色    	音を鳴らす(1/4符)
 T	2	音色    	音を鳴らす(1/2符)
 T	1	音色    	音を鳴らす(1符)
 T	T	名前    	[V2] 組込音を鳴らす
-		        	giggle	happy	hello	mysterious
-		       		sad	slide	soaring	spring
-		         	twinkle	yawn
+		        	giggle  happy  hello  mysterious
+		       		sad  slide  soaring  spring
+		         	twinkle  yawn
 
 C	T	文字列		5 x 5 LEDに文字列表示
 C	0	YX     		5 x 5 LED(X,Y座標）を消灯

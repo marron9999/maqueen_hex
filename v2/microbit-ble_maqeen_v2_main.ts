@@ -1,5 +1,7 @@
 lib_maqueen.setupAudio()
-lib_mbitlink.start(50)
-lib_mbituart.start(50)
-lib_maqueen.start(50)
-
+lib_mbitlink.start()
+lib_mbituart.start()
+lib_maqueen.start()
+basic.forever(function () {
+    lib_mbitlink.dispatch()
+})

@@ -1,4 +1,4 @@
-[ NOTIFY : UART TX ] Micro:bit -> PC　※　複数は「,」区切り
+[ NOTIFY : UART TX ] micro:bit -> PC　※　複数は「,」区切り
 
 D	C	0/1      	接続
 D	A	0/マスク	自動
@@ -7,7 +7,7 @@ D	E	文字列		エラー
 D	L	文字列		ログ
 D	V	1/2     	バージョン
 
---- Maqueen ---
+--- maqueen ---
 
 S	L	0/1        	左ラインセンサーの値
 S	R	0/1       	右ラインセンサーの値
@@ -24,14 +24,14 @@ L	L	0/1      	左LEDの値
 L	R	0/1      	右LEDの値
 L	B	0/1        	左と右LEDの値
 
---- Micro:bit ---
+--- micro:bit ---
 
 B	A	0/1      	ボタンAの状態
 B	B	0/1     	ボタンBの状態
 B	L	0/1        	[V2] ロゴの状態
-B	0	0/1        	[V2] PIN-0の状態
-B	1	0/1        	[V2] PIN-1の状態
-B	2	0/1        	[V2] PIN-2の状態
+B	0	0/1        	[V2] ピン0の状態
+B	1	0/1        	[V2] ピン1の状態
+B	2	0/1        	[V2] ピン2の状態
 
 V	-	整数		明るさの値
 T	-	整数		温度の値
@@ -40,6 +40,10 @@ A	-	HEX     	加速計の値:HEX4桁 X 3
 R	-	HEX     	回転計の値:HEX4桁 X 2
 
 G	-	文字列     	ジェスチャー名
+        			FreeFall  LogoDown  LogoUp 
+				ScreenDown  ScreenUp  Shake
+				TiltLeft  TiltRight
+				3G  6G  8G
 
 
 
