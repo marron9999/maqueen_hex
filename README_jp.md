@@ -26,16 +26,16 @@
 	- micro:bit V2向けのプログラムで、micro:bitのセンサーやmaqueenを操作するプログラムです。
 	- プログラムを修正するときは、https://makecode.microbit.org または makecodeアプリを使ってください。
 
-	![](images/makecode.png)
+![](images/makecode.png)
 
-	- makecodeの拡張機能の組み込みで、mbitlink拡張機能と、利用形態にあわせてmbituart拡張機能、maqueen拡張機能を組み込んでください。<br>
-	mbitlink拡張機能(通信部分): https://github.com/marron9999/lib-mbitlink<br>
-	mbituart拡張機能(micro:bit操作): https://github.com/marron9999/lib-mbituart<br>
-	maqueen拡張機能(maqueen操作): https://github.com/marron9999/lib-maqueen
-	- 「最初だけ」に、それぞれの「Start」ブロックを配置してください。
-	- 「ずっと」に、mbitlinkの「Dispatch」ブロックを配置してください。
-	- maqueen拡張機能を使うときは、DFROBOT社から公開されているpxt-maqueeが必要です。<br>
-	もし、エラー（プログラムサイズ制限）となってしまう場合は、アップロードされている custom.ts をかわりに組み込んでください。
+- makecodeの拡張機能の組み込みで、mbitlink拡張機能と、利用形態にあわせてmbituart拡張機能、maqueen拡張機能を組み込んでください。<br>
+mbitlink拡張機能(通信部分): https://github.com/marron9999/lib-mbitlink<br>
+mbituart拡張機能(micro:bit操作): https://github.com/marron9999/lib-mbituart<br>
+maqueen拡張機能(maqueen操作): https://github.com/marron9999/lib-maqueen
+- 「最初だけ」に、それぞれの「Start」ブロックを配置してください。
+- 「ずっと」に、mbitlinkの「Dispatch」ブロックを配置してください。
+- maqueen拡張機能を使うときは、DFROBOT社から公開されているpxt-maqueenが必要です。<br>
+もし、エラー（プログラムサイズ制限）となってしまう場合は、アップロードされている custom.ts (IR機能は使えません)をかわりに組み込んでください。
 
 
 ## 通信インターフェース
