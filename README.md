@@ -1,4 +1,4 @@
-# maqueen_hex
+# mbitlink_hex
 
 ![](images/mbituart.png)
 
